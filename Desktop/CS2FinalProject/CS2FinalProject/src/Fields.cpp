@@ -55,13 +55,21 @@ std::cout <<"1. Sources" << std::endl;
 std::cout <<"2. Resume Examples" << std::endl;
 std::cout <<"3. Pay Examples" << std::endl;
 std::cout <<"4. Projects/Homelabs" << std::endl;
-std::cout <<"1. Sources" << std::endl;
 int num = 1;
 FieldInfo object(fieldsList[field]);
 while(num != 0){
     std::cin>>num;
 if(num == 1){
     std::cout<<object.createSourceList() << std::endl;
+}
+if(num == 2){
+    std::cout<<object.createResumeList() << std::endl;
+}
+if(num == 3){
+    std::cout<<object.createPayList() << std::endl;
+}
+if(num == 4){
+    std::cout<<object.createProjects() << std::endl;
 }
 }
 

@@ -9,7 +9,7 @@ class security : public Fields
 {
     public:
         security();
-        ~security();
+void invokeDescrip();
 
     protected:
 

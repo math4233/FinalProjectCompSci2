@@ -9,11 +9,11 @@ class networking : public Fields
 {
     public:
         networking();
-        ~networking();
+
 
         std::string Getrole() { return role; }
-        void Setrole(std::string val) { role = val; }
-
+        void Setrole(std::string val){role = val;};
+void invokeDescrip();
     protected:
 
     private:

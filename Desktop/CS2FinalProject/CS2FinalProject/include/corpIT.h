@@ -5,11 +5,10 @@
 class corpIT
 {
     public:
-        corpIT();
-        ~corpIT();
-
+      corpIT();
+      void invokeDescrip();
         std::string Getposition() { return position; }
-        void Setposition(std::string val) { position = val; }
+        void Setposition(std::string val);
 
     protected:
 

@@ -4,6 +4,11 @@
 #include <algorithm>
 #include <unordered_map>
 #include "FieldInfo.h"
+#include "corpIT.h"
+#include "networking.h"
+#include "security.h"
+#include "auditing.h"
+#include "softwareDev.h"
 Fields::Fields()
 {
     std::cout <<"bruh"<<std::endl;
@@ -27,34 +32,57 @@ if(isInterested == "n"){
 else{
      std::cout << "You have chosen: y" << std::endl;
 }
+
+
 std::cout << "What part of IT are you interested in?" << std::endl;
 std::cout << "Type out the corresponding integer (number) associated with the field you are interested in." << std::endl;
 std::vector<std::string> fieldsList = {"1. Corporate/Enterprise IT", "2. Software Development","3. Networking", "4. Auditing", "5. Security", "6. I don't know what I wan't"};
 for(int i = 0;i<fieldsList.size();i++){
 std::cout << fieldsList[i] << std::endl;
 }
+
 int field = 0;
 std::cin >> field;
 while(field == 0 || field > 6){
     std::cout <<"Please choose a field: " << std::endl;
     std::cin >> field;
-
 }
 field--;
 std::cout<<"You have chosen: " << fieldsList[field] << std::endl;
 name = fieldsList[field].substr(2,fieldsList[field].length());
+if(field == 0 ){
+corpIT corp;
+corp.invokeDescrip();
+}
+else if(field == 1){
+networking net;
+net.invokeDescrip();
+}
+else if(field=2){
+
+}
+else if(field = 3){
+
+}
+
 if(field == 5){
 std::cout << "Please type out what you would like to do:" << std::endl;
 std::string phrase;
 std::cin >> phrase;
 std::cout << dontKnowButt(phrase) << std::endl;
 }
+else{
+
+}
+
+
 std::cout << "If you need any other help or resources, type the number in front of what you want." << std::endl;
 std::cout << "Input 0 to shut the program down." << std::endl;
 std::cout <<"1. Sources" << std::endl;
 std::cout <<"2. Resume Examples" << std::endl;
 std::cout <<"3. Pay Examples" << std::endl;
 std::cout <<"4. Projects/Homelabs" << std::endl;
+
 int num = 1;
 FieldInfo object(fieldsList[field]);
 while(num != 0){

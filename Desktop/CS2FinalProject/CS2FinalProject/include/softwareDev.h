@@ -8,11 +8,11 @@ class softwareDev : public Fields
 {
     public:
         softwareDev();
-        virtual ~softwareDev();
+
 
         std::string GettypeDevelopmnt() { return typeDevelopmnt; }
-        void SettypeDevelopmnt(std::string val) { typeDevelopmnt = val; }
-
+        void SettypeDevelopmnt(std::string val);
+void invokeDescrip();
     protected:
 
     private:

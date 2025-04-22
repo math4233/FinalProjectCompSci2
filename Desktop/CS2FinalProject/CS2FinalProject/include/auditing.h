@@ -6,8 +6,6 @@ class auditing : public Fields
 {
     public:
         auditing();
-        ~auditing();
-
         std::string Getstandard() { return standard; }
         void Setstandard(std::string val);
 void invokeDescrip();

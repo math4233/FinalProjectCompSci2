@@ -8,15 +8,12 @@ class softwareDev : public Fields
 {
     public:
         softwareDev();
-
-
         std::string GettypeDevelopmnt() { return typeDevelopmnt; }
         void SettypeDevelopmnt(std::string val);
-void invokeDescrip();
+        void invokeDescrip();
     protected:
 
     private:
         std::string typeDevelopmnt;
 };
-
 #endif // SOFTWAREDEV_H

@@ -9,8 +9,6 @@ class networking : public Fields
 {
     public:
         networking();
-
-
         std::string Getrole() { return role; }
         void Setrole(std::string val){role = val;};
 void invokeDescrip();

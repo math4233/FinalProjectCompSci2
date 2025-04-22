@@ -1,13 +1,25 @@
 # depslib dependency file v1.0
-1745292281 source:c:\users\mathew pt2\desktop\cs2finalproject\cs2finalproject\src\fields.cpp
+1745331126 source:c:\users\mathew pt2\desktop\cs2finalproject\cs2finalproject\src\fields.cpp
 	"Fields.h"
 	<iostream>
 	<vector>
+	<algorithm>
+	<unordered_map>
 
-1745293158 c:\users\mathew pt2\desktop\cs2finalproject\cs2finalproject\include\fields.h
+1745324693 c:\users\mathew pt2\desktop\cs2finalproject\cs2finalproject\include\fields.h
 	<string>
+	<algorithm>
 
 1745283660 source:c:\users\mathew pt2\desktop\cs2finalproject\cs2finalproject\main.cpp
 	<iostream>
 	"FIelds.h"
+
+1745332310 source:c:\users\mathew pt2\desktop\cs2finalproject\cs2finalproject\src\fieldinfo.cpp
+	"FieldInfo.h"
+	<iostream>
+	<fstream>
+	<string>
+
+1745332091 c:\users\mathew pt2\desktop\cs2finalproject\cs2finalproject\include\fieldinfo.h
+	<string>
 

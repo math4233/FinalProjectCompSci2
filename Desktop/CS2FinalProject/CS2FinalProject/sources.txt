@@ -1,1 +1,15 @@
 These are the sources used: 
+
+Salaries:
+----------------------------------------------------------------------------------------
+https://www.splunk.com/en_us/blog/learn/it-salaries.html
+https://ipasstheciaexam.com/it-audit-career-path/
+https://www.zippia.com/salaries/information-technology-auditor/
+https://www.glassdoor.com/Salaries/it-security-auditor-salary-SRCH_KO0%2C19.html
+https://www.infosecinstitute.com/resources/cisa/average-cisa-salary/
+https://bau.edu/blog/it-degree-salary/
+https://www.nexford.edu/insights/highest-paying-it-jobs
+https://www.comptia.org/blog/top-paying-it-certifications
+https://www.payscale.com/research/US/Industry=Information_Technology_(IT)_Services/Salary
+https://www.itcareerfinder.com/brain-food/it-salaries.html
+----------------------------------------------------------------------------------------

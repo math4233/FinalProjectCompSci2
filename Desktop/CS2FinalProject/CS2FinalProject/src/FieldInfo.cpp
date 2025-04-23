@@ -8,41 +8,33 @@ FieldInfo::FieldInfo(std::string field)
 this->field = field;
 }
 std::string FieldInfo::createSourceList(){
-    if(std::ifstream("sources.txt")){
-        return "The source file is already created. Please check the project's directory.";
-    }
-    else{
-       std::ofstream ob("sources.txt");
-       ob << "These are the sources used: " << std::endl;
-    }
+    this->readFile("sources.txt");
 }
 std::string FieldInfo::createPayList(){
-    if(std::ifstream("paylist.txt")){
-        return "The pay list file is already created. Please check the project's directory.";
-    }
-    else{
-       std::ofstream ob("paylist.txt");
-       ob << "This is the pay ranges for the fields: " << std::endl;
-    }
+    this->readFile("paylist.txt");
 }
 std::string FieldInfo::createProjects(){
-    if(std::ifstream("projects.txt")){
-        return "The projects file is already created. Please check the project's directory.";
-    }
-    else{
-       std::ofstream ob("projects.txt");
-       ob << "These are project and homelab examples that you can use for your field! " << std::endl;
-    }
+    this->readFile("projects.txt");
 }
 
 std::string FieldInfo::createResumeList(){
-    if(std::ifstream("resumeExamples.txt")){
-        return "The resume examples file is already created. Please check the project's directory.";
+    this->readFile("resumeExamples.txt");
+}
+void FieldInfo::readFile(std::string name){
+  std::ifstream open(name);
+    if(open.fail()){
+        std::cout<< "The file cannot be opened. Please restart and try again." << std::endl;
     }
     else{
-       std::ofstream ob("resumeExamples.txt");
-       ob << "These are resources for resume examples depending on your field: " << std::endl;
+        std::cout << "The file has been successfully opened." << std::endl;
     }
+   std::string sent;
+   while(std::getline(open,sent)){
+    std::cout<<sent << std::endl;
+   }
+   open.close();
+
+
 }
 
 

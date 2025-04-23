@@ -1,1 +1,50 @@
 This is the pay ranges for the fields: 
+
+Software Development
+------------------------
+High Range
+$171,437/yr
+Average Range
+$104,420 - $127,516/yr
+Low Range (Entry-Level)
+$78,256/yr
+------------------------
+Corporate IT
+------------------------
+High Range
+$164,818/yr
+Average Range
+$89,149-$116,500/yr
+Low Range (Entry-Level)
+$55,275/yr
+------------------------
+Networking
+------------------------
+High Range
+$167,349/yr
+Average Range
+$90,520-$131,578/yr
+Low Range (Entry-Level)
+$50,000/yr
+------------------------
+Auditing
+------------------------
+High Range
+$191,500/yr
+Average Range
+$77,882-$119,508/yr
+Low Range (Entry-Level)
+$42,250-$59,000/yr
+------------------------
+Security
+------------------------
+High Range
+$180,000/yr
+Average Range
+$107,427-$149,617/yr
+Low Range (Entry-Level)
+$50,000-$60,000/yr
+------------------------
+The pay-ranges for each field will differ depending on demand and location.
+Experience and certifications are the most important factors for pay and even getting the job.
+The sources and background information is provided in the 'sources' file. 

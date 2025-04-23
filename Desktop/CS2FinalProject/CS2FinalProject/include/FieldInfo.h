@@ -9,15 +9,15 @@ class FieldInfo
         FieldInfo(std::string field);
         std::string Getfield() { return field; }
         void Setfield(std::string val) { field = val; }
-    std::string createResumeList();
-    std::string createSourceList();
-    std::string createPayList();
-    std::string createProjects();
-
+        std::string createResumeList();
+        std::string createSourceList();
+        std::string createPayList();
+        std::string createProjects();
+        void readFile(std::string name);
     protected:
 
     private:
-                std::string field;
+        std::string field;
 
 };
 

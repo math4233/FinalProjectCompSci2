@@ -1,1 +1,28 @@
 These are resources for resume examples depending on your field: 
+
+General Resumes
+---------------------------------------------------------------------------------------------------
+https://resumegenius.com/resume-samples/it-resume-examples?msockid=13b1d82202426ff91b3fcdf103d06e85
+https://cvcompiler.com/it-professional-resume-examples
+https://www.reddit.com/r/resumes/wiki/index/
+---------------------------------------------------------------------------------------------------
+Software Developer Resumes
+https://resumeworded.com/software-developer-resume-examples#:~:text=%EE%80%80Software%EE%80%81%20engineering
+https://enhancv.com/resume-examples/software-engineer/
+---------------------------------------------------------------------------------------------------
+Sys-Admin/Corporate IT
+---------------------------------------------------------------------------------------------------
+https://www.livecareer.com/resume-examples/system-administrator
+https://www.beamjobs.com/resumes/it-manager-resume-examples
+https://www.velvetjobs.com/resume/corporate-it-resume-sample
+---------------------------------------------------------------------------------------------------
+Auditing
+---------------------------------------------------------------------------------------------------
+https://enhancv.com/resume-examples/it-auditor/
+---------------------------------------------------------------------------------------------------
+Resume Tips
+---------------------------------------------------------------------------------------------------
+https://www.reddit.com/r/ITCareerQuestions/
+https://www.reddit.com/r/ITCareerQuestions/wiki/findajob/
+[keynote: reddit is a amazing source for community feedback and input, take what you can learn and apply what works for you]
+---------------------------------------------------------------------------------------------------

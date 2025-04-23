@@ -12,8 +12,7 @@
 #include <limits>
 Fields::Fields()
 {
-    std::cout <<"bruh"<<std::endl;
-
+ //empty constructor
 }
 int Fields::beginProcess(){
     std::cout<<"To begin, are you interested in the field and world of Information Technology (IT)? (n or y)" << std::endl;
@@ -25,8 +24,6 @@ int Fields::beginProcess(){
     break;
   }
     std::cout << "please enter n or y" << std::endl;
-
-
     }
 
     if(isInterested == "n"){

@@ -1,0 +1,22 @@
+These are project and homelab examples that you can use for your field! 
+
+Software Development:
+https://www.geeksforgeeks.org/top-software-development-project-ideas/
+https://leetcode.com/
+https://github.com/The-Cool-Coders/Project-Ideas-And-Resources
+https://up-for-grabs.net/#/
+https://www.reddit.com/r/opensource/
+
+General Projects:
+These projects can be applied to all fields, a auditor can take a regular homelab and conform to ISO standards in their own way, etc.
+
+https://www.reddit.com/r/homelab/
+(College students only, MS Azure for discount)
+https://azure.microsoft.com/en-us/pricing/offers/ms-azr-0170p/?msockid=13b1d82202426ff91b3fcdf103d06e85
+https://github.com/topics/homelab
+https://github.com/homelab-garden/awesome-homelab
+https://networklessons.com/miscellaneous/how-to-build-a-network-home-lab
+(IT certification information)
+https://partners.comptia.org/docs/default-source/resources/it-certification-roadmap-8-5x11-online363c382c09d76fc19da8ff0a002c2329
+[This is the biggest resource, has a large amount of resources and tools that can be applied to many different fields listed]
+https://github.com/kahun/awesome-sysadmin
